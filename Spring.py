@@ -72,9 +72,9 @@ def spring(self, G):
             A=c1*Log(d/c2)
             
         
-        pygame.draw.circle((0,0,0), (100,100,100), (ay, ay), radio)
+         pygame.draw.circle((0,0,0), (100,100,100), (ax, ay), radio)
         pygame.draw.circle((0,0,0), (100,100,100), (bx, by), radio)
-        pygame.draw.line(surface, color, start_pos, end_pos, width)
+        pygame.draw.line((0,0,0), (100,100,100), (ax,ay), (bx, by))
   
         
         clock.tick(60)
